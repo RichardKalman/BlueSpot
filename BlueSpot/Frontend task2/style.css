@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+
+header, footer, main{
+    border: 1px solid black;
+}
+
+header,footer{
+    background-color: #ccc;
+    flex-basis: 50px;  
+    display: flex;
+    margin: 5px;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #ccb;
+}
+footer img{
+    height: 50px;
+    
+}
+
+
+
+
+
+main {
+    flex: auto;
+    overflow-y: auto;
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
